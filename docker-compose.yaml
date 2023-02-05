@@ -3,3 +3,5 @@ mosquitto:
   user: 1000:1000
   ports:
     - "1883:1883"
+  volumes:
+    - ./conf:/mosquitto/config
